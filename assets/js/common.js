@@ -47,40 +47,41 @@ $(".area_dl dd").on("click",function(){
 var clang = getCookie('clang');
 if (clang == '') {
     addCookie('clang', 'en');
+    location.reload();
 }
 
 });
 
-function addCookie(name,value,expireHours){ 
+function addCookie(name,value,expireHours){
     var v = getCookie(name);
     if (v) {
-        delCookie(name); 
+        delCookie(name);
     }
-    var cookieString=name+"="+escape(value)+";path=/"; 
-    if(expireHours>0){ 
-        var date=new Date(); 
-        date.setTime(date.getTime+expireHours*3600*1000); 
-        cookieString=cookieString+"; expire="+date.toGMTString(); 
-    } 
-    document.cookie=cookieString; 
-} 
+    var cookieString=name+"="+escape(value)+";path=/";
+    if(expireHours>0){
+        var date=new Date();
+        date.setTime(date.getTime+expireHours*3600*1000);
+        cookieString=cookieString+"; expire="+date.toGMTString();
+    }
+    document.cookie=cookieString;
+}
 
-function getCookie(name){ 
-    var strCookie=document.cookie; 
-    var arrCookie=strCookie.split("; "); 
-    for(var i=0;i<arrCookie.length;i++){ 
-        var arr=arrCookie[i].split("="); 
-        if(arr[0]==name)return arr[1]; 
-    } 
-    return ""; 
-} 
+function getCookie(name){
+    var strCookie=document.cookie;
+    var arrCookie=strCookie.split("; ");
+    for(var i=0;i<arrCookie.length;i++){
+        var arr=arrCookie[i].split("=");
+        if(arr[0]==name)return arr[1];
+    }
+    return "";
+}
 
-function delCookie(name) 
-{ 
-    var exp = new Date(); 
-    exp.setTime(exp.getTime() - 1); 
-    var cval=getCookie(name); 
-    if(cval!=null) 
-        document.cookie= name + "="+cval+";expires="+exp.toGMTString(); 
-} 
+function delCookie(name)
+{
+    var exp = new Date();
+    exp.setTime(exp.getTime() - 1);
+    var cval=getCookie(name);
+    if(cval!=null)
+        document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+}
 
