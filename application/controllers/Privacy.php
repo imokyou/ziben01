@@ -5,7 +5,7 @@ class Privacy extends MY_Controller {
 
 	public function index()
 	{
-		$this->loadview('front/privacy');
+		$this->loadview('front/privacy', $this->init_data);
 	}
 
 }

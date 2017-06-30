@@ -5,7 +5,7 @@ class Faq extends MY_Controller {
 
 	public function index()
 	{
-		$this->loadview('front/faq');
+		$this->loadview('front/faq', $this->init_data);
 	}
 
 }

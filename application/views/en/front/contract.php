@@ -9,6 +9,9 @@
     <meta name="description" content="150 words">
     <meta name="renderer" content="webkit">
     <meta name="x5-orientation" content="portrait">
+    <meta http-equiv="pragma" content="no-cache">  
+    <meta http-equiv="cache-control" content="no-cache">    
+    <meta http-equiv="expires" content="0">  
     <link rel="stylesheet" href="/assets/css/stage.css">
     <title>Capital country Home - Treaty</title>
     <!--[if lt IE 9]>
@@ -55,6 +58,11 @@
             <li>
                 <a href="/login/" >
                     <img src="/assets/pic/nav_squar.png">Login
+                </a>
+            </li>
+            <li>
+                <a href="javascript:alert('coming soon')" >
+                    <img src="/assets/pic/nav_squar.png">Trading Hall
                 </a>
             </li>
             <li>

@@ -5,10 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="keywords" content="your tags">
-    <meta name="description" content="150 words">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <meta name="renderer" content="webkit">
     <meta name="x5-orientation" content="portrait">
+    <meta http-equiv="pragma" content="no-cache">  
+    <meta http-equiv="cache-control" content="no-cache">    
+    <meta http-equiv="expires" content="0">  
     <link rel="stylesheet" href="/assets/css/stage.css">
     <title>资本国度首页</title>
     <!--[if lt IE 9]>
@@ -62,6 +65,11 @@
                 </a>
             </li>
             <li>
+                <a href="javascript:alert('尽请期待')" >
+                    <img src="/assets/pic/nav_squar.png">资产交易中心
+                </a>
+            </li>
+            <li>
                 <a href="/video/" >
                     <img src="/assets/pic/nav_squar.png">视频
                 </a>
@@ -85,11 +93,11 @@
         <div class="census bg0a">
             <h1 class="side_tit">统计</h1>
             <ul class="census_ul">
-                <li><p>会员</p><span>30034</span></li>
-                <li><p>线上</p><span>104</span></li>
-                <li><p>命中</p><span>2500</span></li>
-                <li><p>总支付</p><span>$258982.00</span></li>
-                <li><p>报价</p><span>21421.25</span></li>
+                <li><p>会员</p><span><?php echo $member_nums;?></span></li>
+                <li><p>线上</p><span><?php echo $member_online;?></span></li>
+                <li><p>命中</p><span><?php echo $member_hit;?></span></li>
+                <li><p>总支付</p><span>$<?php echo $member_paid;?></span></li>
+                <li><p>报价</p><span><?php echo $total_offer;?></span></li>
                 <li><img src="/assets/pic/border_grey.png"></li>
                 <li><p>PTS值</p><span>$3.81和62186.95</span></li>
                 <li><p>PTC值</p><span>$0.04</span></li>
@@ -167,7 +175,7 @@
         <h2 class="sub_tit">赚更多的钱请到在网上查询资本国度网站，我们付给你更多的赚钱机会！</h2>
         <p class="mb10">注册成为资本国度会员，马上开始在家上网赚全世界各地的钱，只要你付出劳动，就会得到真实有效的钱进入你的账户， 不投资（100％自由加入和永久使用），完成注册及相关资料工作项目栏目中有很多以及上架的商家项目以供会员参与赚 钱。如果你是个推广员，你可以在我们网站上进行推广会员，同时可以有机会得到更多的收入，只要稍加练习，你可以赚 取相当不错的收入。</p>
         <p>我们理解在当今时代每个人都可以使用一些额外的现金在里面的口袋里。在我们的网站，你可能不会快速致富，但只要相信平台，并你可以付出行动，你就可赚取真实额外的现金量好放在你的口袋里，我们的平台会有更多的赚钱机会提供给大家，你选择资本国度平台，就是你成功的开始,你挣多少钱取决于你有多少时间和愿意投资在学习如何和做报价</p>
-        <a href="/register/"">
+        <a href="/register/">
             <img class="register_ad" src="/assets/pic/register_ad.png">
         </a>
         <h1 class="pic_tit"><img src="/assets/pic/text002.png"></h1>
@@ -219,9 +227,12 @@
             </li>
         </ul>
         <div class="jindu">
-            <p>已完成<span>65%</span></p>
+            <p>已完成<span>0%</span></p>
             <div class="progress">
+                <!--
                 <div class="progress_bar"></div>
+                -->
+                <div class=""></div>
             </div>
         </div>
         <h6>请会员慎重选择自己参与的项目进行工作，各种项目公司都有不同的方式请妥善

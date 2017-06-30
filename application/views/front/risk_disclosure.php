@@ -9,6 +9,9 @@
     <meta name="description" content="150 words">
     <meta name="renderer" content="webkit">
     <meta name="x5-orientation" content="portrait">
+    <meta http-equiv="pragma" content="no-cache">  
+    <meta http-equiv="cache-control" content="no-cache">    
+    <meta http-equiv="expires" content="0">  
     <link rel="stylesheet" href="/assets/css/stage.css">
     <title>资本国度-风险披露</title>
     <!--[if lt IE 9]>
@@ -56,6 +59,11 @@
             <li>
                 <a href="/login/" >
                     <img src="/assets/pic/nav_squar.png">登录
+                </a>
+            </li>
+            <li>
+                <a href="javascript:alert('尽请期待')" >
+                    <img src="/assets/pic/nav_squar.png">资产交易中心
                 </a>
             </li>
             <li>

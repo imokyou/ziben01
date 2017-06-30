@@ -9,6 +9,9 @@
     <meta name="description" content="150 words">
     <meta name="renderer" content="webkit">
     <meta name="x5-orientation" content="portrait">
+    <meta http-equiv="pragma" content="no-cache">  
+    <meta http-equiv="cache-control" content="no-cache">    
+    <meta http-equiv="expires" content="0">  
     <link rel="stylesheet" href="/assets/css/stage.css">
     <title>资本国度-会员登陆</title>
     <!--[if lt IE 9]>
@@ -65,6 +68,11 @@
                 </a>
             </li>
             <li>
+                <a href="javascript:alert('尽请期待')" >
+                    <img src="/assets/pic/nav_squar.png">资产交易中心
+                </a>
+            </li>
+            <li>
                 <a href="/video/" >
                     <img src="/assets/pic/nav_squar.png">视频
                 </a>
@@ -88,11 +96,11 @@
         <div class="census bg0a">
             <h1 class="side_tit">统计</h1>
             <ul class="census_ul">
-                <li><p>会员</p><span>30034</span></li>
-                <li><p>线上</p><span>104</span></li>
-                <li><p>命中</p><span>2500</span></li>
-                <li><p>总支付</p><span>$258982.00</span></li>
-                <li><p>报价</p><span>21421.25</span></li>
+                <li><p>会员</p><span><?php echo $member_nums;?></span></li>
+                <li><p>线上</p><span><?php echo $member_online;?></span></li>
+                <li><p>命中</p><span><?php echo $member_hit;?></span></li>
+                <li><p>总支付</p><span>$<?php echo $member_paid;?></span></li>
+                <li><p>报价</p><span><?php echo $total_offer;?></span></li>
                 <li><img src="/assets/pic/border_grey.png"></li>
                 <li><p>PTS值</p><span>$3.81和62186.95</span></li>
                 <li><p>PTC值</p><span>$0.04</span></li>
@@ -153,12 +161,12 @@
                 <li>
                     <h4>用户名<a href="#"></a></h4>
                     <input type="text" name="username" id="username" value="" />
-                    <a href="/member/find-username/">忘记用户名?</a>
+                    <!--<a href="/member/find-username/">忘记用户名?</a>-->
                 </li>
                 <li>
                     <h4>密码<a href="#"></a></h4>
                     <input type="password" name="password" id="password" value="" />
-                    <a href="/member/find-password/">忘记密码?</a>
+                    <!--<a href="/member/find-password/">忘记密码?</a> -->
                 </li>
                 <!--
                 <li>
@@ -173,7 +181,7 @@
                 </li>
                 -->
                 <!-- <li><input type="checkbox">记住我</li> -->
-                <li style="padding-left:90px;">
+                <li style="padding-left:90px;display:none">
                     <button type="button" class="btn_globe" onclick="login()">登录</button>
                 </li>
             </ul>

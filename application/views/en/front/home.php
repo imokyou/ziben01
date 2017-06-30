@@ -9,6 +9,9 @@
     <meta name="description" content="150 words">
     <meta name="renderer" content="webkit">
     <meta name="x5-orientation" content="portrait">
+    <meta http-equiv="pragma" content="no-cache">  
+    <meta http-equiv="cache-control" content="no-cache">    
+    <meta http-equiv="expires" content="0">  
     <link rel="stylesheet" href="/assets/css/stage.css">
     <title>Capital country Home</title>
     <!--[if lt IE 9]>
@@ -65,6 +68,11 @@
                 </a>
             </li>
             <li>
+                <a href="javascript:alert('coming soon')" >
+                    <img src="/assets/pic/nav_squar.png">Trading Hall
+                </a>
+            </li>
+            <li>
                 <a href="/video/" >
                     <img src="/assets/pic/nav_squar.png">Video
                 </a>
@@ -88,11 +96,11 @@
         <div class="census bg0a">
             <h1 class="side_tit">STATS</h1>
             <ul class="census_ul">
-                <li><p>MEMBERS</p><span>30034</span></li>
-                <li><p>ONLINE</p><span>149</span></li>
-                <li><p>HITS</p><span>2500</span></li>
-                <li><p>TATOL PAID</p><span>$258982.00</span></li>
-                <li><p>OFFERS</p><span>21421.25</span></li>
+                <li><p>MEMBERS</p><span><?php echo $member_nums;?></span></li>
+                <li><p>ONLINE</p><span><?php echo $member_online;?></span></li>
+                <li><p>HITS</p><span><?php echo $member_hit;?></span></li>
+                <li><p>TATOL PAID</p><span>$<?php echo $member_paid;?></span></li>
+                <li><p>OFFERS</p><span><?php echo $total_offer;?></span></li>
                 <li><img src="/assets/pic/border_grey.png"></li>
                 <li><p>PTS VALUES</p><span>$3.81和62186.95</span></li>
                 <li><p>PTC VALUES</p><span>$0.04</span></li>
@@ -170,7 +178,7 @@
         <h2 class="sub_tit">Wanting to make more money , you can refer to our website to get more opportunities .</h2>
         <p class="mb10">Registering as a member of GlobalActionCash, you can immediately make money from all parts of the world at home. Real money comes to your account with your efforts.No investments.(100% Free to Join and Use Forever)We will offer members lots of projects on sale to make money, if you finish your registration and relevant information. Supposing that you are a promoter, you can popularize our membership and get a higher pay at the same time.With a bit of practice, you can earn a very good income.</p>
         <p>We understand in today's age everyone could use some extra cash in their pocket. At our site you may not get rich quickly but you can earn a good amount of real extra cash to put in your pocket.We will provide more opportunities of making money.This is what we aim to help you do with our site. How much you earn depends on how much time you have and are willing to invest in learning how to and doing offers.</p>
-        <a href="/register/"">
+        <a href="/register/">
             <img class="register_ad" src="/assets/pic/register_ad.png">
         </a>
         <h1 class="pic_tit">We can offer you more opportunities to make money</h1>
@@ -222,9 +230,12 @@
             </li>
         </ul>
         <div class="jindu">
-            <p>completed<span>65%</span></p>
+            <p>completed<span>0%</span></p>
             <div class="progress">
+                <!--
                 <div class="progress_bar"></div>
+                -->
+                <div class=""></div>
             </div>
         </div>
         <h6>Please choose your projects cautiously and manage your finance and time reasonably. Every project has its own way to operate in our company. We can’t make a decision for you but a friendly remainder.</h6>

@@ -9,6 +9,9 @@
     <meta name="description" content="150 words">
     <meta name="renderer" content="webkit">
     <meta name="x5-orientation" content="portrait">
+    <meta http-equiv="pragma" content="no-cache">  
+    <meta http-equiv="cache-control" content="no-cache">    
+    <meta http-equiv="expires" content="0">  
     <link rel="stylesheet" href="/assets/css/stage.css">
     <title>Capital country Home- About</title>
     <!--[if lt IE 9]>
@@ -52,9 +55,15 @@
                     <img src="/assets/pic/nav_squar.png">Register
                 </a>
             </li>
+            
             <li>
                 <a href="/login/" >
                     <img src="/assets/pic/nav_squar.png">Login
+                </a>
+            </li>
+            <li>
+                <a href="javascript:alert('coming soon')" >
+                    <img src="/assets/pic/nav_squar.png">Trading Hall
                 </a>
             </li>
             <li>
@@ -104,77 +113,6 @@
         <img class="dy_pic" src="/assets/en/pic/dy_pic.png">
     </div>
     <div class="banner mt20"><img src="/assets/en/pic/banner002.png"></div>
-    <div class="team_box">
-        <h1 class="pic_tit">Our team</h1>
-        <h2>Capital national team is a professional design and financial professionals based groups</h2>
-        <ul class="chief">
-            <li class="mr30">
-                <span class="yellow_line"></span>
-                <a href="#">
-                    <div class="header_re_pic"><img src="/assets/pic/tx_01.jpg"></div>
-                    <div class="chief_r">
-                        <h3>David</h3>
-                        <p>Senior master trade</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <span class="yellow_line"></span>
-                <a href="#">
-                    <div class="header_re_pic"><img src="/assets/pic/tx_01.jpg"></div>
-                    <div class="chief_r">
-                        <h3>David</h3>
-                        <p>chief operating officer</p>
-                    </div>
-                </a>
-            </li>
-        </ul>
-         <ul class="team_ul clearfloat">
-            <li><a href="#">
-                <div class="team_pic"><img src="/assets/pic/tx_01.jpg"></div>
-                <h4>David</h4>
-                <span></span>
-                <p>inance Director</p>
-            </a></li>
-            <li><a href="#">
-                <div class="team_pic"><img src="/assets/pic/tx_01.jpg"></div>
-                <h4>David</h4>
-                <span></span>
-                <p>Finance Director</p>
-            </a></li>
-            <li><a href="#">
-                <div class="team_pic"><img src="/assets/pic/tx_01.jpg"></div>
-                <h4>David</h4>
-                <span></span>
-                <p>Finance Director</p>
-            </a></li>
-            <li><a href="#">
-                <div class="team_pic"><img src="/assets/pic/tx_01.jpg"></div>
-                <h4>David</h4>
-                <span></span>
-                <p>Finance Director</p>
-            </a></li>
-            <li><a href="#">
-                <div class="team_pic"><img src="/assets/pic/tx_01.jpg"></div>
-                <h4>某某某某</h4>
-                <span></span>
-                <p>Finance Director</p>
-            </a></li>
-            <li><a href="#">
-                <div class="team_pic"><img src="/assets/pic/tx_01.jpg"></div>
-                <h4>David</h4>
-                <span></span>
-                <p>Finance Director</p>
-            </a></li>
-            <li><a href="#">
-                <div class="team_pic"><img src="/assets/pic/tx_01.jpg"></div>
-                <h4>David</h4>
-                <span></span>
-                <p>Finance Director</p>
-            </a></li>
-        </ul>
-
-    </div>
 </div>
 
 </div>

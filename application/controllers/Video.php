@@ -5,7 +5,7 @@ class Video extends MY_Controller {
 
 	public function index()
 	{
-		$this->loadview('front/video');
+		$this->loadview('front/video', $this->init_data);
 	}
 
 }

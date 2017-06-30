@@ -5,7 +5,7 @@ class Risk extends MY_Controller {
 
 	public function disclosure()
 	{
-		$this->loadview('front/risk_disclosure');
+		$this->loadview('front/risk_disclosure', $this->init_data);
 	}
 
 }

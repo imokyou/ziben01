@@ -5,7 +5,7 @@ class Support extends MY_Controller {
 
 	public function index()
 	{
-		$this->loadview('front/support');
+		$this->loadview('front/support', $this->init_data);
 	}
 
 }

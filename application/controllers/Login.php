@@ -5,7 +5,7 @@ class Login extends MY_Controller {
 
 	public function index()
 	{
-		$this->loadview('front/login');
+		$this->loadview('front/login', $this->init_data);
 	}
 
 }

@@ -5,7 +5,7 @@ class Contract extends MY_Controller {
 
 	public function index()
 	{
-		$this->loadview('front/contract');
+		$this->loadview('front/contract', $this->init_data);
 	}
 
 }

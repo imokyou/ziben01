@@ -9,6 +9,9 @@
     <meta name="description" content="150 words">
     <meta name="renderer" content="webkit">
     <meta name="x5-orientation" content="portrait">
+    <meta http-equiv="pragma" content="no-cache">  
+    <meta http-equiv="cache-control" content="no-cache">    
+    <meta http-equiv="expires" content="0">  
     <link rel="stylesheet" href="/assets/css/stage.css">
     <title>Capital country Home - Support</title>
     <!--[if lt IE 9]>
@@ -65,6 +68,11 @@
                 </a>
             </li>
             <li>
+                <a href="javascript:alert('coming soon')" >
+                    <img src="/assets/pic/nav_squar.png">Trading Hall
+                </a>
+            </li>
+            <li>
                 <a href="/video/" >
                     <img src="/assets/pic/nav_squar.png">Video
                 </a>
@@ -88,11 +96,11 @@
         <div class="census bg0a">
             <h1 class="side_tit">STATS</h1>
             <ul class="census_ul">
-                <li><p>MEMBERS</p><span>30034</span></li>
-                <li><p>ONLINE</p><span>149</span></li>
-                <li><p>HITS</p><span>2500</span></li>
-                <li><p>TATOL PAID</p><span>$258982.00</span></li>
-                <li><p>OFFERS</p><span>21421.25</span></li>
+                <li><p>MEMBERS</p><span><?php echo $member_nums;?></span></li>
+                <li><p>ONLINE</p><span><?php echo $member_online;?></span></li>
+                <li><p>HITS</p><span><?php echo $member_hit;?></span></li>
+                <li><p>TATOL PAID</p><span>$<?php echo $member_paid;?></span></li>
+                <li><p>OFFERS</p><span><?php echo $total_offer;?></span></li>
                 <li><img src="/assets/pic/border_grey.png"></li>
                 <li><p>PTS VALUES</p><span>$3.81和62186.95</span></li>
                 <li><p>PTC VALUES</p><span>$0.04</span></li>
