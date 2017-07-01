@@ -66,11 +66,13 @@
                     <img src="/assets/pic/nav_squar.png">Trading Hall
                 </a>
             </li>
+            <!--
             <li>
                 <a href="/video/" >
                     <img src="/assets/pic/nav_squar.png">Video
                 </a>
             </li>
+            -->
             <li>
                 <a href="/faq/" >
                     <img src="/assets/pic/nav_squar.png">FAQ
@@ -91,18 +93,25 @@
     <div class="banner pt20"><img src="/assets/en/pic/banner001.png"></div>
     <div class="com_info clearfloat mt20">
         <h1 class="pic_tit mb15">Company profile</h1>
+        <!--
         <div class="info_left">
+        -->
+        <div class="info_left" style="width:100%">
             <p>Rod Humble is the core founder of GlobalActionCash which originates from new finance of Bitcoin. GlobalActionCash involves elements of various virtual community games including the Sims and Second Life chiefly developed by Rod Humble. As the CEO of Linden Lab，Rod Humble with 20-year experience in game industry has engaged in developing over 200 games.Second Life is similar to reality ,where scenes or plots are provided but a 3D platform.All the persons ,events ,lands and objects are created by players in this game.If limits are mentioned,the only limit is your imagination.</p>
             <p>As a result ,GlobalActionCash was crested against the above backdrop and financial market.GlobalActionCash has brought virtual games into the real financial field,endowed users with entertainment ,met users’ demands and built a decentralized service center.Thus, users can win trophies and make money in a virtual world, driving a new recreation-community economy.GlobalActionCash works to create virtual real-person feeling and provide financial service transactions ,social contacts and entertainment.What’s more, GlobalActionCash is determined to establish an Internet-decentralized emotive and safe mechanism.It is a large comprehensive service platform of social contact,entertainment and finance.We hope more and more people are drew by the platform,thus adding more pleasure to earn money.</p>
             <p>The main difference between GlobalActionCash and Second Life is to turn constructed things into original ones.This enables members to recreate their own things,redistribute wealth and then obtain their own villas,limousines and so on. Users are close to their second-life dreams in virtual world by labors and wisdom.</p>
 
         </div>
+        <!--
         <div class="info_vedio">
+        
                 <video width="380" height="280" controls >
                     <source src="/assets/video/video001.mp4" type="video/mp4" >
                     Your browser does not support Video Tags。
                 </video>
+               
         </div>
+         -->
     </div>
 
     <div class="pluralism mt20">

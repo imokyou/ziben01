@@ -66,11 +66,13 @@
                     <img src="/assets/pic/nav_squar.png">资产交易中心
                 </a>
             </li>
+            <!--
             <li>
                 <a href="/video/" >
                     <img src="/assets/pic/nav_squar.png">视频
                 </a>
             </li>
+            -->
             <li>
                 <a href="/faq/" >
                     <img src="/assets/pic/nav_squar.png">常见问题
@@ -91,18 +93,25 @@
     <div class="banner pt20"><img src="/assets/pic/banner001.png"></div>
     <div class="com_info clearfloat mt20">
         <h1 class="pic_tit mb15"><img src="/assets/pic/text003.png"></h1>
+        <!--
         <div class="info_left">
+        -->
+        <div class="info_left" style="width:100%">
         <p>&nbsp;&nbsp;&nbsp;&nbsp;资本国度平台是七星集团发起的一项资本计划，联合了外汇投资公司，博彩运营公司，期货交易公司，全球旅游公司，广告投放公司，房地产商，矿产业，区块链技术团队，联合打造的资本国度平台。</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;主要围绕金融市场为主题的大型综合性平台，联合资本金融与消费市场及娱乐于一体的平台。</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;资本国度平台设有，外汇交易，期权交易，私募交易，虚拟加密货币交易，理财投资；同时具有广告投放，购物消费，娱乐休闲等相关产业项目投放系列；为了更好的把全球民间闲散资本集中在一起形成一个良性循环的资本金融投资+理财+娱乐+消费为一体的新金融产业结构平台，促进闲散资金支持实体发展战略，可以使以各种形式推行的模式，把公司集中到一起，精选出各种具有潜力的公司，把其产品放在资本国度推出计划交易；优质产品的集团公司，可以把各自的资本整合上架进行证劵化交易，同时开启专业人员操作内部方案，使用三方分布式模式进行运作，然后再逐步扩大市场份额，以及联合传统金融交易平台进行交易。</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;另外用区块链技术来提高交易效率及降低成本，通过加密货币进行快速兑换进行全球交易，资本国度推出资本兑也是未来用于支付的一款加密技术的货币，具有投资性意义的数字加密货币并且应用支付商品交易的属性！</p>
         </div>
+        <!--
         <div class="info_vedio">
+        
                 <video width="380" height="280" controls >
                     <source src="/assets/video/video001.mp4" type="video/mp4" >
                     您的浏览器不支持Video标签。
                 </video>
+                
         </div>
+        -->
     </div>
 
     <div class="pluralism mt20">

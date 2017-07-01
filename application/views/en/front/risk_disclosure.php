@@ -65,11 +65,13 @@
                     <img src="/assets/pic/nav_squar.png">Trading Hall
                 </a>
             </li>
+            <!--
             <li>
                 <a href="/video/" >
                     <img src="/assets/pic/nav_squar.png">Video
                 </a>
             </li>
+            -->
             <li>
                 <a href="/faq/" >
                     <img src="/assets/pic/nav_squar.png">FAQ

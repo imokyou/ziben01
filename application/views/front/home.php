@@ -59,21 +59,25 @@
                     <img src="/assets/pic/nav_squar.png">寄存器
                 </a>
             </li>
-            <li>
-                <a href="/login/" >
-                    <img src="/assets/pic/nav_squar.png">登录
-                </a>
-            </li>
-            <li>
-                <a href="javascript:alert('尽请期待')" >
-                    <img src="/assets/pic/nav_squar.png">资产交易中心
-                </a>
-            </li>
+            <!--
             <li>
                 <a href="/video/" >
                     <img src="/assets/pic/nav_squar.png">视频
                 </a>
             </li>
+            -->
+            <li>
+                <a href="javascript:alert('尽请期待')" >
+                    <img src="/assets/pic/nav_squar.png">资产交易中心
+                </a>
+            </li>
+            <!--
+            <li>
+                <a href="/video/" >
+                    <img src="/assets/pic/nav_squar.png">视频
+                </a>
+            </li>
+            -->
             <li>
                 <a href="/faq/" >
                     <img src="/assets/pic/nav_squar.png">常见问题
