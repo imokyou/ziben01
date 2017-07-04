@@ -29,7 +29,7 @@ class MY_Controller extends CI_Controller {
     protected function gen_member_num() 
     {
         $member_nums = 3000;
-        $times = intval(date('Ymd')) - 20170704
+        $times = intval(date('Ymd')) - 20170704;
         $member_nums = $member_nums + $times * 200 ;
         return $member_nums;
     }
@@ -44,7 +44,7 @@ class MY_Controller extends CI_Controller {
     protected function gen_total_offer() 
     {
         $total_offer = 214211;
-        $times = intval(date('Ymd')) - 20170704
+        $times = intval(date('Ymd')) - 20170704;
         $total_offer = $total_offer + $times * rand(102011, 156852);
         return $total_offer;
     }
