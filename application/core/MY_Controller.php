@@ -8,8 +8,8 @@ class MY_Controller extends CI_Controller {
         parent::__construct();
         $this->init_data = array(
             'member_nums' => $this->gen_member_num(),
-            'member_online' => rand(100, 400),
-            'member_hit' => rand(2000, 2500),
+            'member_online' => rand(300, 500),
+            'member_hit' => 12,
             'member_paid' => $this->gen_member_paid(),
             'total_offer' => $this->gen_total_offer(),
         );
@@ -28,8 +28,9 @@ class MY_Controller extends CI_Controller {
 
     protected function gen_member_num() 
     {
-        $member_nums = 30456;
-        $member_nums = $member_nums + (intval(date('m')) + intval(date('d')))*10 ;
+        $member_nums = 3000;
+        $times = intval(date('Ymd')) - 20170704
+        $member_nums = $member_nums + $times * 200 ;
         return $member_nums;
     }
 
@@ -42,8 +43,9 @@ class MY_Controller extends CI_Controller {
 
     protected function gen_total_offer() 
     {
-        $total_offer = 21421.25;
-        $total_offer = $total_offer + (intval(date('m')) + intval(date('d')))*10;
+        $total_offer = 214211;
+        $times = intval(date('Ymd')) - 20170704
+        $total_offer = $total_offer + $times * rand(102011, 156852);
         return $total_offer;
     }
 

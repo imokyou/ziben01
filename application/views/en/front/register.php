@@ -324,6 +324,7 @@
                 <span>Whether real information</span>
                 <label><input id="is_info_real" name="is_info_real" type="checkbox" /><i>Yes, I use real information</i></label>
             </li>
+            <!--
             <li>
                 <span>area</span>
                 <dl class="area_dl">
@@ -332,6 +333,7 @@
                 </dl>
                 <input type='hidden' id='member_area' value="left" />
             </li>
+            -->
             <li>
                 <span>referee</span>
                 <input id="recommend_user" maxlength="64" name="recommend_user" readonly="readonly" type="text" value="" />
