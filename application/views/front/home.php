@@ -103,8 +103,6 @@
                 <li><p>总支付</p><span>$<?php echo $member_paid;?></span></li>
                 <li><p>报价</p><span><?php echo $total_offer;?></span></li>
                 <li><img src="/assets/pic/border_grey.png"></li>
-                <li><p>PTS值</p><span>$3.81和62186.95</span></li>
-                <li><p>PTC值</p><span>$0.04</span></li>
             </ul>
         </div>
         <div class="diary bg0a mt20">

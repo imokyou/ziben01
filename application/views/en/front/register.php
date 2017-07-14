@@ -104,8 +104,6 @@
                 <li><p>TATOL PAID</p><span>$<?php echo $member_paid;?></span></li>
                 <li><p>OFFERS</p><span><?php echo $total_offer;?></span></li>
                 <li><img src="/assets/pic/border_grey.png"></li>
-                <li><p>PTS VALUES</p><span>$3.81和62186.95</span></li>
-                <li><p>PTC VALUES</p><span>$0.04</span></li>
             </ul>
         </div>
         <div class="diary bg0a mt20">
